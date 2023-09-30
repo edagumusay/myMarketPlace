@@ -1,0 +1,45 @@
+<!doctype html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+            
+        <title>{% block title %}{% endblock %} | myMarketPlace</title>
+        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+    </head>
+
+    <body>
+        <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-200">
+            <div class="flex justify-between items-center space-x-3">
+                <img src="{% static 'icon.png' %}" width="30" height="30"/>
+                <a href="/" class="text-xl font-semibold">myMarketPlace</a>                
+            </div>
+
+            <form class="flex" method="get" action="{% url 'item:items' %}">
+                <input name="query" class="w-full py-3 px-6 border rounded-xl mr-2" type="text" value="{{ query }}" placeholder="Search for...">
+
+                <button class="px-2 py-1 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">🔎</button>
+            </form>
+
+            <div class="space-x-3">
+                <a href="{% url 'item:new' %}" class="text-lg font-semibold hover:text-gray-500">New item</a>
+                
+                {% if request.user.is_authenticated %}
+                    <a href="{% url 'conversation:inbox' %}" class="px-3 py-3 text-lg font-semibold bg-orange-500 text-white rounded-xl hover:bg-orange-700">Inbox</a>
+                    <a href="{% url 'dashboard:index' %}" class="px-3 py-3 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">myPage</a>
+                {% else %}
+                    <a href="{% url 'core:signup' %}" class="px-3 py-3 text-lg font-semibold bg-orange-500 text-white rounded-xl hover:bg-orange-700">Sign up</a>
+                    <a href="{% url 'core:login' %}" class="px-3 py-3 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">Log in</a>
+                {% endif %}
+
+            </div>
+        </nav>
+        <div class="px-6 py-6">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
