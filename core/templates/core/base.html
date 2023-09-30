@@ -11,8 +11,8 @@
         <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
     </head>
 
-    <body>
-        <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-200">
+    <body class="bg-gray-100">
+        <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-200 bg-white">
             <div class="flex justify-between items-center space-x-3">
                 <img src="{% static 'icon.png' %}" width="30" height="30"/>
                 <a href="/" class="text-xl font-semibold">myMarketPlace</a>                
@@ -21,7 +21,7 @@
             <form class="flex" method="get" action="{% url 'item:items' %}">
                 <input name="query" class="w-full py-3 px-6 border rounded-xl mr-2" type="text" value="{{ query }}" placeholder="Search for...">
 
-                <button class="px-2 py-1 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">🔎</button>
+                <button class="px-3 py-2 text-lg font-semibold bg-blue-50 text-white rounded-xl hover:bg-blue-100">🔎</button>
             </form>
 
             <div class="space-x-3">

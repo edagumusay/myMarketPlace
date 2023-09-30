@@ -8,9 +8,13 @@
 <form method="post" action=".">
     {% csrf_token %}
 
-    <div class="space-y-4">
-        {{ form.as_p }}
+    <div class=" space-x-3 flex justify-between items-center">
+        <div class="w-full">
+            {{ form.as_p }}
+        </div>
+        <button class="mt-4 py-6 px-6 text-lg bg-orange-500 hover:bg-orange-700 rounded-xl text-white">Send</button>
     </div>
+    
 
     {% if form.errors or form.non_field_errors %}
         <div class="mb-3 p-6 bg-red-100 rounded-xl">
@@ -20,8 +24,6 @@
             {{ form.non_field_errors }}
         </div>
     {% endif %}
-
-    <button class="mt-6 py-4 px-7 text-lg bg-orange-500 hover:bg-orange-700 rounded-xl text-white">Send</button>
 </form>
 
 {% endblock %}
