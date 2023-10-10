@@ -7,7 +7,8 @@
         <div>
             <p>Welcome back, <strong>{{ request.user }}</strong>!</p> 
         </div>
-        <a href="{% url 'core:logout' %}" class="px-6 py-3 text-lg font-semibold underline text-blue-950 rounded-xl">Log out</a>        
+        <a href="{% url 'password_reset' %}" class="px-6 py-3 text-lg font-semibold underline text-blue-950 rounded-xl">Reset Password</a>
+        <a href="{% url 'core:logout' %}" class="px-6 py-3 text-lg font-semibold underline text-blue-950 rounded-xl">Log out</a>         
     </div>
     <div class="mt-12">
         <h2 class="mb-6 text-2xl text-center">My items</h2>

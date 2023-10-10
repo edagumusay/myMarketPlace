@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8001
+From: webmaster@localhost
+To: eedagumusay@gmail.com
+Date: Tue, 10 Oct 2023 13:52:11 -0000
+Message-ID: <169694593160.34491.5880619782341489185@EGs-MacbookPro.local>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8001.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8001/accounts/reset/Ng/bvux6z-bd25316552ae7d01d87c32dae8c3e739/
+
+Your username, in case you’ve forgotten: Sophia
+
+Thanks for using our site!
+
+The 127.0.0.1:8001 team
+
+
+
+-------------------------------------------------------------------------------
