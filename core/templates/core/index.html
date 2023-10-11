@@ -24,18 +24,25 @@
 
     <div class="pagination">
         <span class="step-links">
-            {% if items.has_previous %}
-                <a href="?page=1">&laquo; first </a>
-                <a href="?page={{ items.previous_page_number }}">| &laquo; previous</a>
-                </br></br>
-                <span class="current-page">Page {{ items.number }} of {{ items.paginator.num_pages }}.</span>
-            {% endif %}
-            {% if items.has_next %}
+            {% if items.has_previous and items.has_next %}
+            <a href="?page={{ items.previous_page_number }}">&laquo; previous </a>
+            <a href="?page={{ items.next_page_number }}">| next &raquo;</a>
+            </br>
+            <a href="?page=1">&nbsp;&nbsp;&nbsp;&nbsp;&laquo; first </a>
+            <a href="?page={{ items.paginator.num_pages }}">| last &raquo;</a>
+            </br></br>
+            {% elif items.has_previous %}
+                <a href="?page={{ items.previous_page_number }}">&laquo; previous</a>
+            </br>
+                <a href="?page=1">&laquo; first</a>
+            </br></br>
+            {% elif items.has_next %}
                 <a href="?page={{ items.next_page_number }}">next &raquo;</a>
-                <a href="?page={{ items.paginator.num_pages }}"> | last &raquo;</a>
-                </br></br>
-                <span class="current-page">Page {{ items.number }} of {{ items.paginator.num_pages }}.</span>
+            </br>
+                <a href="?page={{ items.paginator.num_pages }}">last &raquo;</a>
+            </br></br>
             {% endif %}
+            <span class="current-page">Page {{ items.number }} of {{ items.paginator.num_pages }}.</span>
         </span>
     </div>
 {% endblock %}
