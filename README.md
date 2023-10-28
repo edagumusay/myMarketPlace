@@ -21,8 +21,7 @@ Users can browse their desired items also by category through the browser. Buyer
 
 Home page (http://127.0.0.1:8001/?page=2)
 
-<img width="462" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/9c9e7193-dd44-46f4-ac54-b03d7f973f68"><br><br><br><br>
-
+<img width="462" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/9c9e7193-dd44-46f4-ac54-b03d7f973f68"><br><br>
 
 Sign up page (http://127.0.0.1:8001/signup/)
 
