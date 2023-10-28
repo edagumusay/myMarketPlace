@@ -74,7 +74,7 @@ Because I developed this website in a local environment, I added static media ur
 
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/f146b138-951f-4833-ad68-ba0534e47c31"><br><br>
 
-Functionalities like viewing, editing, deleting an item require a unique identifier (primary key pk) in its paths.
+Functionalities like viewing, editing, deleting an item require a unique identifier (primary key **pk**) in its paths.
 
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e75f5620-eae9-426a-92a0-9f496a05c8f5"><br>
 
@@ -84,7 +84,7 @@ I also defined the name for these paths, so I could use them easily in html elem
 
 - **Views**
 
-<img width="470" alt="Screen Shot 2023-10-28 at 10 02 57 PM" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ea4d6878-48c4-4ada-90e8-1531016232e2">
+<img width="470" alt="Screen Shot 2023-10-28 at 10 02 57 PM" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ea4d6878-48c4-4ada-90e8-1531016232e2"><br>
 
 Each of these files you see extends core/base.html as I wanted to avoid too much repetition.<br><br><br>
 
