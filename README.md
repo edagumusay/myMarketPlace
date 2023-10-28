@@ -84,9 +84,7 @@ I also defined the name for these paths, so I could use them easily in html elem
 
 <img width="610" alt="Screen Shot 2023-10-28 at 10 02 57 PM" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ea4d6878-48c4-4ada-90e8-1531016232e2">
 
-Each of these files you see extends core/base.html as I wanted to avoid too much repetition.
-
-<img width="470" alt="Screen Shot 2023-10-28 at 10 02 57 PM" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7e67c13b-11ed-4727-8116-6841603cc56b"><br>
+Each of these files you see extends core/base.html as I wanted to avoid too much repetition.<br>
 
 - Tests
 
