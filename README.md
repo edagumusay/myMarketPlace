@@ -53,7 +53,7 @@ An item’s page (http://127.0.0.1:8001/items/13/)
 
 # Code Structure
 
-- Models
+- **Models**
 
 Every item is bound to a Category which has a name field. Every item itself has a name, description, price, image, is_sold, created_by and created_at fields.
 
@@ -64,7 +64,7 @@ Every message is bound to a Conversation which has an item and members (users) f
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/62c2491a-8274-4869-b861-94d080bb3cc1"><br><br><br>
 
 
-- Urls
+- **Urls**
 
 Basically, every functionality has its path and relevant method defined.
 
