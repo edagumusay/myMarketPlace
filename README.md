@@ -12,7 +12,7 @@ To start with, every user can create their own account via “Sign up” page. U
 Finally, “Submit”.
 After all, buyers will be able to see added items in the Recent items section or they can “Search for...” their desired item through the browser.
 
-Users can browse their desired items also by category through the browser. Buyers can contact the seller and initiate a chat.
+Users can browse their desired items also by category through the browser. Buyers can contact the seller and initiate a chat.<br><br>
 
 # Dataflow
 <img width="350" alt="data flow" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ed33fd51-80cd-4fdd-9562-15a7f17227ab">
