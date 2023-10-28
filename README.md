@@ -54,28 +54,38 @@ An item’s page (http://127.0.0.1:8001/items/13/)
 # Code Structure
 
 - Models
+
 Every item is bound to a Category which has a name field. Every item itself has a name, description, price, image, is_sold, created_by and created_at fields.
+
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/b6640676-ca1f-4d89-91fc-4bf3fd50a15e"><br>
 
 Every message is bound to a Conversation which has an item and members (users) field. Every message itself has a content, created_by and created_at fields.
+
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/62c2491a-8274-4869-b861-94d080bb3cc1"><br>
 
 - Urls
 Basically, every functionality has its path and relevant method defined.
 
 Because I developed this website in a local environment, I added static media url path for the media files.
+
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7cb31268-25b7-4e94-8a73-e1547be0d2a8">
+
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/f146b138-951f-4833-ad68-ba0534e47c31"><br>
 
 Functionalities like viewing, editing, deleting an item require a unique identifier (primary key pk) in its paths.
+
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e75f5620-eae9-426a-92a0-9f496a05c8f5">
+
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7bf1f1f7-ebd3-466a-991c-91df41042aee">
+
 I also defined the name for these paths, so I could use them easily in html elements (mainly buttons).<br>
 
 - Views
 		
 Each of these files you see extends core/base.html as I wanted to avoid too much repetition.
+
 <img width="470" alt="Screen Shot 2023-10-28 at 10 02 57 PM" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7e67c13b-11ed-4727-8116-6841603cc56b"><br>
 
 - Tests
+
 I have implemented 17 automated unit tests which test several edge cases for different apps inside the project (e.g., new item form being invalid in case of string price).
