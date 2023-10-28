@@ -1,5 +1,5 @@
 # <img width="14" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/04f97134-f293-47cf-b122-bc9721cc3eb7"> myMarketPlace
-myMarketPlace is an online marketplace designed to simplify the way we buy and sell.<br><br><br>
+myMarketPlace is an online marketplace designed to simplify the way we buy and sell.<br><br>
 
 # The aim of the <img width="14" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/04f97134-f293-47cf-b122-bc9721cc3eb7"> myMarketPlace
 To start with, every user can create their own account via “Sign up” page. Users can see the Recent items posted or create a “New item”. New Item page allows users to do following:
