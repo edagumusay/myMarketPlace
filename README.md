@@ -8,6 +8,7 @@ To start with, every user can create their own account via “Sign up” page. U
 - Write a description
 - Determine the price
 - Choose an image file
+
 Finally, “Submit”.
 After all, buyers will be able to see added items in the Recent items section or they can “Search for...” their desired item through the browser.
 
