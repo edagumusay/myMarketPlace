@@ -13,4 +13,4 @@ After all, buyers will be able to see added items in the Recent items section or
 Users can browse their desired items also by category through the browser. Buyers can contact the seller and initiate a chat.
 
 # Dataflow
-<img width="100" alt="data flow" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ed33fd51-80cd-4fdd-9562-15a7f17227ab">
+<img width="200" alt="data flow" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ed33fd51-80cd-4fdd-9562-15a7f17227ab">
