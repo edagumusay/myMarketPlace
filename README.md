@@ -47,4 +47,5 @@ myPage (http://127.0.0.1:8001/dashboard/)
 <img width="466" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e59a50ac-3d15-4ba9-8343-b8fc100a3c0d">
 
 An item’s page (http://127.0.0.1:8001/items/13/)
+
 <img width="461" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/fa259621-8c5c-4079-a87a-d21843f51f2b">
