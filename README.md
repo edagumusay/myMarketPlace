@@ -61,9 +61,11 @@ Every item is bound to a Category which has a name field. Every item itself has 
 
 Every message is bound to a Conversation which has an item and members (users) field. Every message itself has a content, created_by and created_at fields.
 
-<img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/62c2491a-8274-4869-b861-94d080bb3cc1"><br>
+<img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/62c2491a-8274-4869-b861-94d080bb3cc1"><br><br><br>
+
 
 - Urls
+
 Basically, every functionality has its path and relevant method defined.
 
 Because I developed this website in a local environment, I added static media url path for the media files.
@@ -78,13 +80,13 @@ Functionalities like viewing, editing, deleting an item require a unique identif
 
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7bf1f1f7-ebd3-466a-991c-91df41042aee">
 
-I also defined the name for these paths, so I could use them easily in html elements (mainly buttons).<br>
+I also defined the name for these paths, so I could use them easily in html elements (mainly buttons).<br><br><br>
 
 - Views
 
 <img width="610" alt="Screen Shot 2023-10-28 at 10 02 57 PM" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ea4d6878-48c4-4ada-90e8-1531016232e2">
 
-Each of these files you see extends core/base.html as I wanted to avoid too much repetition.<br>
+Each of these files you see extends core/base.html as I wanted to avoid too much repetition.<br><br><br>
 
 - Tests
 
