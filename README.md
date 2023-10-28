@@ -70,13 +70,13 @@ Basically, every functionality has its path and relevant method defined.
 
 Because I developed this website in a local environment, I added static media url path for the media files.
 
-<img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7cb31268-25b7-4e94-8a73-e1547be0d2a8">
+<img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7cb31268-25b7-4e94-8a73-e1547be0d2a8"><br>
 
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/f146b138-951f-4833-ad68-ba0534e47c31"><br>
 
 Functionalities like viewing, editing, deleting an item require a unique identifier (primary key pk) in its paths.
 
-<img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e75f5620-eae9-426a-92a0-9f496a05c8f5">
+<img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e75f5620-eae9-426a-92a0-9f496a05c8f5"><br>
 
 <img width="470" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7bf1f1f7-ebd3-466a-991c-91df41042aee">
 
