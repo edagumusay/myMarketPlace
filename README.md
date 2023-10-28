@@ -25,28 +25,28 @@ Home page (http://127.0.0.1:8001/?page=2)
 
 Sign up page (http://127.0.0.1:8001/signup/)
 
-<img width="462" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/da713cd4-4ce1-4c56-ab3e-722cfd93947a">
+<img width="462" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/da713cd4-4ce1-4c56-ab3e-722cfd93947a"><br>
 
 Log in page (http://127.0.0.1:8001/login/)
 
-<img width="466" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/d22f2a28-d338-43b9-8021-a09fab3008e4">
+<img width="466" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/d22f2a28-d338-43b9-8021-a09fab3008e4"><br>
 
 Adding a new item (http://127.0.0.1:8001/items/new/)
 
-<img width="465" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ef70e4f2-832b-407f-bb1c-afa65e3e0a4e">
+<img width="465" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/ef70e4f2-832b-407f-bb1c-afa65e3e0a4e"><br>
 
 Inbox page (http://127.0.0.1:8001/inbox/)
 
-<img width="465" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/657452f2-59b9-4434-bfde-b3ec5f27f162">
+<img width="465" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/657452f2-59b9-4434-bfde-b3ec5f27f162"><br>
 
 Conversation (http://127.0.0.1:8001/inbox/9/)
 
-<img width="469" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7e417862-f871-4079-ba0b-8b8961eba3aa">
+<img width="469" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/7e417862-f871-4079-ba0b-8b8961eba3aa"><br>
 
 myPage (http://127.0.0.1:8001/dashboard/)
 
-<img width="466" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e59a50ac-3d15-4ba9-8343-b8fc100a3c0d">
+<img width="466" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/e59a50ac-3d15-4ba9-8343-b8fc100a3c0d"><br>
 
 An item’s page (http://127.0.0.1:8001/items/13/)
 
-<img width="461" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/fa259621-8c5c-4079-a87a-d21843f51f2b">
+<img width="461" alt="image" src="https://github.com/edagumusay/myMarketPlace/assets/81931479/fa259621-8c5c-4079-a87a-d21843f51f2b"><br>
